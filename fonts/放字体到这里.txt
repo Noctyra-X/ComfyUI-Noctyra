@@ -1,0 +1,2 @@
+把 .ttf / .ttc / .otf 字体文件放到这里(或 ComfyUI/models/fonts/)，
+「生成文字水印」节点的字体下拉框会自动列出。

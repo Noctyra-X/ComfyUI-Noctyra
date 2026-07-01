@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Test / IDE
+.pytest_cache/
+.vscode/
+.idea/
+
+# Logs / Temp / Backup
+*.log
+*.bak
+*.tmp
+
+# Claude Code
+.claude/
+
+# 字体文件：本地放在 fonts/ 供节点使用，但默认不提交到仓库
+# (系统字体多为专有，且体积大；保留说明文件)
+fonts/*.ttf
+fonts/*.ttc
+fonts/*.otf
+fonts/*.TTF
+fonts/*.TTC
+fonts/*.OTF
+# 例外：思源黑体为 SIL OFL 开源协议，可随仓库分发（连同其许可证）
+!fonts/SourceHanSansCN-Regular.otf
+!fonts/SourceHanSans-LICENSE.txt
+
+# 去水印扩散模型（十几 GB，本地放在插件 models/，不提交到仓库）
+models/
+
+# Mocap(视频转3D动作)：
+#  - mocap/ 是 GVHMR/hamer 代码+权重(~18GB,含 license 受限的 SMPL 系列),不提交;用户按 README 放置
+#  - runtime/ 是 install.py 用 uv 建的私有 py3.10 环境,不提交
+#  - wheels/ 里的 cp310 轮子(pytorch3d/detectron2)需随仓库分发,保留
+mocap/
+runtime/

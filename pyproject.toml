@@ -1,0 +1,14 @@
+[project]
+name = "ComfyUI-Noctyra"
+description = "ComfyUI custom nodes: image/video processing, watermark, 51EasyAI API"
+version = "1.0.0"
+license = "GPL-3.0-or-later"
+dependencies = ["Pillow", "numpy", "requests", "opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/Noctyra-X/ComfyUI-Noctyra"
+
+[tool.comfy]
+PublisherId = "qiuuc"
+DisplayName = "ComfyUI-Noctyra"
+Icon = "✨"
