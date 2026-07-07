@@ -40,7 +40,7 @@ NODE_CLASS_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS = {}
 
 # 各子模块独立 try：缺某个依赖(如 opencv)只禁用它自己的节点，不连累其它子模块
-for _name in ("image", "video", "text", "watermark_add", "watermark_remove", "load_switch"):  # motion→Noctyra-Mocap, easyai_api→Noctyra-EasyAI
+for _name in ("image", "video", "text", "watermark_add", "watermark_remove", "load_switch", "seamless_preview"):  # motion→Noctyra-Mocap, easyai_api→Noctyra-EasyAI
     try:
         _mod = __import__(f"{__name__}.{_name}", fromlist=[_name])
     except Exception as _e:

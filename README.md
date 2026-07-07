@@ -29,8 +29,6 @@ pip install -r ComfyUI-Noctyra/requirements.txt
 
 重启 ComfyUI 即可。去水印节点首次使用时按需下载模型。
 
-> 视频转 3D 骨骼动作（Mocap）已独立为 [ComfyUI-Mocap](https://github.com/Noctyra-X/ComfyUI-Mocap)。
-
 ## 致谢
 
 去可见水印节点部分移植自 MIT 项目 [remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)，详见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
